@@ -40,6 +40,8 @@ namespace MarioLike
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
+            //Hello Dennis
+
             // TODO: use this.Content to load your game content here
         }
 
