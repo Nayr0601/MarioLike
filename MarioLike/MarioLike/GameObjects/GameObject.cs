@@ -8,5 +8,10 @@ namespace MarioLike.GameObjects
 {
     class GameObject
     {
+        //Fields
+
+
+        //Methods
+
     }
 }
