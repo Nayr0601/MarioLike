@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MarioLike.GameObjects.Unit
+namespace MarioLike.GameObjects.Units
 {
-    class Enemy
+    class Enemy : Unit
     {
     }
 }

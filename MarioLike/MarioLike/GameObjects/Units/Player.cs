@@ -9,20 +9,42 @@ using System.Threading.Tasks;
 
 namespace MarioLike
 {
-    class Player : GameObject
+    class Player : Unit
     {
         //Fields
+
+        //Constructor
+        public Player()
+        {
+            speed = 200;
+        }
 
 
         //Methods
         public override void Update(GameTime gameTime)
         {
+            HandleInput();
+            Move(gameTime);
+        }
+
+        private void HandleInput()
+        {
             KeyboardState state = Keyboard.GetState();
-            
+
             if (state.IsKeyDown(Keys.A))
             {
-                
+                velocity.X += -1;
+            }
+            if (state.IsKeyDown(Keys.D))
+            {
+                velocity.X += 1;
+            }
+            if (state.IsKeyDown(Keys.Space))
+            {
+                //jump
             }
         }
+
+
     }
 }
