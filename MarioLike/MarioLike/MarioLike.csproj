@@ -42,8 +42,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="GameObjects\GameObject.cs" />
+    <Compile Include="GameObjects\Unit.cs" />
+    <Compile Include="GameObjects\Unit\Enemy.cs" />
     <Compile Include="GameWorld.cs" />
     <Compile Include="Picture.cs" />
+    <Compile Include="GameObjects\Unit\Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -61,9 +64,7 @@
     <MonoGameContentReference Include="Content\Content.mgcb" />
     <None Include="app.manifest" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="GameObjects\Enemies\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

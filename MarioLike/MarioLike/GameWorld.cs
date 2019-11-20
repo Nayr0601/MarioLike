@@ -9,8 +9,11 @@ namespace MarioLike
     /// </summary>
     public class GameWorld : Game
     {
+        //Fields
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+
+        Texture2D playerSprite;
 
 
         public GameWorld()
@@ -43,6 +46,7 @@ namespace MarioLike
 
 
             // TODO: use this.Content to load your game content here
+            playerSprite = Content.Load<Texture2D>("Individual Sprites/adventurer-idle-00");
         }
 
         /// <summary>
@@ -78,6 +82,9 @@ namespace MarioLike
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
+            spriteBatch.Begin();
+            spriteBatch.Draw(playerSprite, new Vector2(), Color.White);
+            spriteBatch.End();
 
             base.Draw(gameTime);
         }
