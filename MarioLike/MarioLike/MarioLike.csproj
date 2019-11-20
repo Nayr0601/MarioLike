@@ -42,6 +42,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="GameObjects\GameObject.cs" />
+    <Compile Include="GameObjects\Platforms\Obstacle.cs" />
+    <Compile Include="GameObjects\Platforms\Platform.cs" />
     <Compile Include="GameObjects\Unit.cs" />
     <Compile Include="GameObjects\Unit\Enemy.cs" />
     <Compile Include="GameWorld.cs" />

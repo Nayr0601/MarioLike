@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/Dennis/Documents/GitHub/MarioLike/MarioLike/MarioLike/Content/Individual Sprites/adventurer-jump-03.png</SourceFile>
-  <SourceTime>2019-11-20T08:52:50.0780124+01:00</SourceTime>
-  <DestFile>C:/Users/Dennis/Documents/GitHub/MarioLike/MarioLike/MarioLike/Content/bin/Windows/Content/Individual Sprites/adventurer-jump-03.xnb</DestFile>
-  <DestTime>2019-11-20T09:05:24.1404711+01:00</DestTime>
+  <SourceFile>C:/Users/MikkelVandal/Documents/GitHub/MarioLike/MarioLike/MarioLike/Content/Individual Sprites/adventurer-jump-03.png</SourceFile>
+  <SourceTime>2019-11-20T09:31:36.8671848+01:00</SourceTime>
+  <DestFile>C:/Users/MikkelVandal/Documents/GitHub/MarioLike/MarioLike/MarioLike/Content/bin/Windows/Content/Individual Sprites/adventurer-jump-03.xnb</DestFile>
+  <DestTime>2019-11-20T09:46:35.9905347+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-12-08T17:35:54+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
